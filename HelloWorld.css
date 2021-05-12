@@ -28,7 +28,7 @@ body {
     opacity: 0.75;
     z-index: 50;
 }
-.signup-title {
+.signup-title, .login-title{
     font-family: Arial;
     font-size: 40px;
     font-weight: 800;
@@ -78,7 +78,7 @@ body {
 .buttons {
     margin-bottom: 20px;
 }
-.btn-signup {
+.btn-signup, .btn-login{
     border-radius: 20px;
     border-color: #00a758;
     text-align: center;
