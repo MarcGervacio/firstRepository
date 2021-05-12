@@ -1,0 +1,95 @@
+.header {
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin: 0;
+    padding: 10px 5px 5px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 800;
+}
+body {
+    background-image: url('sample.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.form {
+    border: 2px solid #424559;
+    margin: 100px 50px;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.75;
+    z-index: 50;
+}
+.signup-title {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 800;
+}
+.input-fields {
+    margin: 20px 20px 20px;
+    border-top: 2px solid #424559;
+}
+.username {
+    margin: 40px 0 20px;
+    border-radius: 20px;
+    padding-left: 5px;
+    background-color: white;
+    opacity: 1;
+    z-index: 50;
+}
+.password {
+    border-radius: 20px;
+    padding-left: 5px;
+    background-color: white;
+    opacity: 1;
+    z-index: 50;
+}
+.btn-submit {
+    border-radius: 20px;
+    border-color: #00a758;
+    text-align: center;
+    background-color: #00a758;
+    font-family: Arial;
+    font-size: 13px;
+    color: white;
+    margin-right: 5px;
+    width: 70px;
+    height: 30px;
+}
+.btn-reset {
+    border-radius: 20px;
+    border-color: #ec6453;
+    text-align: center;
+    background-color: #ec6453;
+    font-family: Arial;
+    font-size: 13px;
+    color: white;
+    width: 70px;
+    height: 30px;
+}
+.buttons {
+    margin-bottom: 20px;
+}
+.btn-signup {
+    border-radius: 20px;
+    border-color: #00a758;
+    text-align: center;
+    background-color: #00a758;
+    font-family: Arial;
+    font-size: 13px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    top: 8px;
+}
