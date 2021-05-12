@@ -12,11 +12,25 @@
                 <input class="btn-login" type="submit" value="Log In">
             </a>
         </div>
-        <div class="form">
-            <span class="signup-title">Sign Up</span>
-            <div class="input-fields">
-                <input class="username" type="text" placeholder="Enter name">
-                <input class="password" type="text" placeholder="Enter password">
+        <div class="signup-form">
+            <span class="signup-title">Personal Information</span>
+            <div class="input-fields-signup">
+                <input class="name" type="text" placeholder="Name" required>
+                <input class="address" type="text" placeholder="Home Address" required>
+                <input class="number" type="tel" placeholder="Mobile Number" required>
+                <input class="birthday" type="date" value="2021-01-01" required>
+                <input class="email" type="email" placeholder="Email Address" required>
+                <input class="age" type="number" placeholder="Age" required>
+                <select class=gender>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>LGBT</option>
+                </select>
+            </div>
+            <span class="signup-title">Account Information</span>
+            <div class="input-fields-signup">
+                <input class="signup-username" type="text" placeholder="Username" required>
+                <input class="signup-password" type="password" placeholder="Password" required>
             </div>
             <div class="buttons">
                 <input class="btn-submit" type="submit" value="Submit">

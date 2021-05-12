@@ -17,25 +17,43 @@ body {
     margin: 0;
     padding: 0;
 }
-.form {
+.form, .signup-form {
     border: 2px solid #424559;
     margin: 100px 50px;
     height: auto;
-    text-align: center;
     padding-top: 30px;
     border-radius: 20px;
     background-color: white;
     opacity: 0.75;
     z-index: 50;
+    text-align: center;
 }
-.signup-title, .login-title{
+.signup-form {
+    margin: 50px 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+.login-title{
     font-family: Arial;
     font-size: 40px;
     font-weight: 800;
 }
-.input-fields {
+.signup-title {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 0;
+    margin-left: 10px;
+}
+.input-fields, .input-fields-signup {
     margin: 20px 20px 20px;
     border-top: 2px solid #424559;
+    text-align: center;
+}
+.input-fields-signup {
+    margin: 10px 10px 20px;
+    text-align: left;
 }
 .username {
     margin: 40px 0 20px;
@@ -51,6 +69,15 @@ body {
     background-color: white;
     opacity: 1;
     z-index: 50;
+}
+.name, .address, .number, .email, .birthday, .age, .gender ,.signup-username, .signup-password{
+    border: none;
+    border-bottom: 2px solid #d3d3d3;
+    margin: 10px 0 10px;
+    width: 100%;
+}
+.number, .age, .birthday, .gender {
+    width: 49%;
 }
 .btn-submit {
     border-radius: 20px;
@@ -77,6 +104,7 @@ body {
 }
 .buttons {
     margin-bottom: 20px;
+    text-align: center;
 }
 .btn-signup, .btn-login{
     border-radius: 20px;
