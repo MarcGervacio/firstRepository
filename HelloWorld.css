@@ -8,7 +8,7 @@
     font-family: Arial;
     font-weight: 800;
 }
-body {
+body{
     background-image: url('sample.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
-.btn-signup, .btn-login{
+.btn-signup, .btn-login, .btn-logout{
     border-radius: 20px;
     border-color: #00a758;
     text-align: center;
@@ -120,4 +120,69 @@ body {
     right: 0;
     margin-right: 5px;
     top: 8px;
+}
+.home-title {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 0;
+    top: 10px;
+    margin-left: 5px;
+}
+.add-button {
+    border-radius: 20px;
+    border-color: #00a758;
+    text-align: center;
+    background-color: #00a758;
+    font-family: Arial;
+    font-size: 13px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.country {
+    margin: 15px 10px 20px;
+    padding-top: 5px;
+    height: 13%;
+    border: 2px solid #424559;
+    border-radius: 20px;
+    opacity: 0.60;
+    z-index: 50;
+}
+.country:first-child {
+    background-color: #4d94ff;
+    margin-top: 40px;
+}
+.country:nth-child(2) {
+    background-color: #ff66ff;
+}
+.country:nth-child(3) {
+    background-color: #ffff66;
+}
+.country:nth-child(4) {
+    background-color: #ffc266;
+}
+.country:last-child {
+    background-color: #ff8566;
+}
+.country-title {
+    margin-left: 10px;
+    font-family: Arial;
+    font-weight: 600;
+}
+.dialog-hidden {
+    height: 80%;
+}
+.country-desc {
+    height: 80%;
+    overflow-y: scroll;
+    margin: 10px 10px 0;
+}
+.book-button {
+    display: none;
 }
