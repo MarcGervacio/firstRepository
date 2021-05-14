@@ -17,7 +17,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.form, .signup-form {
+.form, .signup-form, .account-form {
     border: 2px solid #424559;
     margin: 100px 50px;
     height: auto;
@@ -28,10 +28,13 @@ body{
     z-index: 50;
     text-align: center;
 }
-.signup-form {
+.signup-form, .account-form {
     margin: 50px 20px;
     padding-top: 20px;
     text-align: left;
+}
+.account-form {
+    margin-top: 30px;
 }
 .login-title{
     font-family: Arial;
@@ -106,7 +109,7 @@ body{
     margin-bottom: 20px;
     text-align: center;
 }
-.btn-signup, .btn-login, .btn-logout{
+.btn-signup, .btn-login, .home-options{
     border-radius: 20px;
     border-color: #00a758;
     text-align: center;
@@ -121,7 +124,10 @@ body{
     margin-right: 5px;
     top: 8px;
 }
-.home-title {
+.home-options {
+    width: 80px;
+}
+.home-title, .account-title {
     font-family: Arial;
     font-size: 20px;
     font-weight: 600;
@@ -130,7 +136,10 @@ body{
     top: 10px;
     margin-left: 5px;
 }
-.add-button {
+.account-title {
+    top: 20px;
+}
+.add-button, .add-button-label {
     border-radius: 20px;
     border-color: #00a758;
     text-align: center;
